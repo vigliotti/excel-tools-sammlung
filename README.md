@@ -20,8 +20,9 @@ Diese Sammlung enthält leistungsstarke Excel Programme zur Verbesserung von Org
 Die Programme können direkt hier heruntergeladen werden:
 
 - [Jahreskalender_Uebersicht Download](Jahreskalender_Uebersicht.xlsm)  
-- [Kurven Berechnung Download](Kurven%20Berechnung.xlsm) 
-- [Magazinverwaltung Download](Magazin.xlsb & MagazinDaten.xlsb)  
+- [Kurven Berechnung Download](Kurven%20Berechnung.xlsm)  
+- [Magazin.xlsb Download](Magazin.xlsb)  
+- [MagazinDaten.xlsb Download](MagazinDaten.xlsb)  
 - [Lehrenverwaltung Download](Lehrenverwaltung.xlsm)  
 - [xlRechnung Download](xlRechnung.xlsm)  
 
@@ -101,7 +102,7 @@ Rechnungsprogramm ideal für Kleinunternehmer (mit oder ohne Kleinunternehmerreg
 - Stammdaten einmal speichern
 - Artikel und Käufer eingeben
 - Rechnung generieren und automatisch in `C:\` speichern
-- DHL oder Post Versandschein automatisch generiert und zum Laden bereit
+- DHL oder Post Versandschein automatisch generiert
 - EÜR automatisch erstellt
 
 ---
@@ -119,5 +120,3 @@ Rechnungsprogramm ideal für Kleinunternehmer (mit oder ohne Kleinunternehmerreg
 - Keine zusätzliche Software notwendig  
 - Einfache Bedienung  
 - Praxisorientierte Lösungen  
-
----
