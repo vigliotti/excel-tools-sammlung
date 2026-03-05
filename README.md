@@ -1,4 +1,4 @@
-# Kostenlose Excel Tools für Büro und Industrie
+# Excel Tools für Büro und Industrie
 
 Diese Sammlung enthält mehrere leistungsstarke Excel Programme zur Verbesserung von Organisation, Planung und Arbeitsabläufen.
 
