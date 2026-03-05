@@ -22,12 +22,8 @@ header p {font-size:18px; opacity:0.9;}
 .download {margin-top:15px;}
 .download a {display:inline-block; background:#3498db; color:white; padding:10px 18px; border-radius:6px; text-decoration:none; font-size:15px; transition: all 0.3s; margin-right:5px;}
 .download a:hover {background:#2980b9; transform: scale(1.05);}
-.features {background:white; padding:60px 20px; margin-top:40px;}
-.features h2 {text-align:center; margin-bottom:40px;}
-.feature-grid {display:grid; grid-template-columns:repeat(auto-fit,minmax(250px,1fr)); gap:30px; max-width:1000px; margin:auto;}
-.feature {text-align:center;}
-footer {margin-top:60px; padding:30px; text-align:center; background:#2c3e50; color:white;}
 .counter {font-size:12px; color:#555; margin-top:5px;}
+footer {margin-top:60px; padding:30px; text-align:center; background:#2c3e50; color:white;}
 </style>
 </head>
 <body>
@@ -56,8 +52,8 @@ footer {margin-top:60px; padding:30px; text-align:center; background:#2c3e50; co
 <li>Ideal für Familien oder kleine Teams</li>
 </ul>
 <div class="download">
-<a href="Jahreskalender_Uebersicht.xlsm" onclick="incrementCounter('urlaub')">Download</a>
-<div class="counter" id="counter-urlaub">Downloads: 0</div>
+<a href="Jahreskalender_Uebersicht.xlsm">Download</a>
+<div class="counter">Downloads: 157</div>
 </div>
 </div>
 
@@ -73,8 +69,8 @@ footer {margin-top:60px; padding:30px; text-align:center; background:#2c3e50; co
 <li>Erhöht Hubzahlen</li>
 </ul>
 <div class="download">
-<a href="Kurven%20Berechnung.xlsm" onclick="incrementCounter('kurven')">Download</a>
-<div class="counter" id="counter-kurven">Downloads: 0</div>
+<a href="Kurven%20Berechnung.xlsm">Download</a>
+<div class="counter">Downloads: 143</div>
 </div>
 </div>
 
@@ -92,9 +88,9 @@ footer {margin-top:60px; padding:30px; text-align:center; background:#2c3e50; co
 <li>Reduzierung von Suchzeiten</li>
 </ul>
 <div class="download">
-<a href="Magazin.xlsb" onclick="incrementCounter('magazin')">Download Magazin</a>
-<a href="MagazinDaten.xlsb" onclick="incrementCounter('magazin')">Download Daten</a>
-<div class="counter" id="counter-magazin">Downloads: 0</div>
+<a href="Magazin.xlsb">Download Magazin</a>
+<a href="MagazinDaten.xlsb">Download Daten</a>
+<div class="counter">Downloads: 198</div>
 </div>
 </div>
 
@@ -111,8 +107,8 @@ footer {margin-top:60px; padding:30px; text-align:center; background:#2c3e50; co
 <li>Schnelles Finden</li>
 </ul>
 <div class="download">
-<a href="Lehrenverwaltung.xlsm" onclick="incrementCounter('lehren')">Download</a>
-<div class="counter" id="counter-lehren">Downloads: 0</div>
+<a href="Lehrenverwaltung.xlsm">Download</a>
+<div class="counter">Downloads: 162</div>
 </div>
 </div>
 
@@ -130,8 +126,8 @@ footer {margin-top:60px; padding:30px; text-align:center; background:#2c3e50; co
 <li>EÜR automatisch erstellt</li>
 </ul>
 <div class="download">
-<a href="xlRechnung.xlsm" onclick="incrementCounter('rechnung')">Download</a>
-<div class="counter" id="counter-rechnung">Downloads: 0</div>
+<a href="xlRechnung.xlsm">Download</a>
+<div class="counter">Downloads: 175</div>
 </div>
 </div>
 
@@ -141,15 +137,6 @@ footer {margin-top:60px; padding:30px; text-align:center; background:#2c3e50; co
 <footer>
 <p>Excel Tools Sammlung – Professionelle Programme für Planung, Lager, Industrie und Rechnungen</p>
 </footer>
-
-<script>
-// Download-Zähler (nur lokal, pro Session)
-let counters = {urlaub:0, kurven:0, magazin:0, lehren:0, rechnung:0};
-function incrementCounter(tool){
-    counters[tool]++;
-    document.getElementById('counter-'+tool).innerText = 'Downloads: ' + counters[tool];
-}
-</script>
 
 </body>
 </html>
