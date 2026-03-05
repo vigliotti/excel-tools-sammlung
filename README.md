@@ -20,7 +20,7 @@ Diese Sammlung enthält leistungsstarke Excel Programme zur Verbesserung von Org
 Die Programme können direkt hier heruntergeladen werden:
 
 - [Jahreskalender_Uebersicht Download](Jahreskalender_Uebersicht.xlsm)  
-- [Kurven Berechnung Download](Kurven Berechnung.xlsm)  
+- [Kurven Berechnung Download](Kurven%20Berechnung.xlsm) 
 - [Magazinverwaltung Download](Magazin.xlsb & MagazinDaten.xlsb)  
 - [Lehrenverwaltung Download](Lehrenverwaltung.xlsm)  
 - [xlRechnung Download](xlRechnung.xlsm)  
