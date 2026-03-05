@@ -1,87 +1,126 @@
-# Excel Tools für Büro und Industrie
+# Kostenlose Excel Tools für Büro und Industrie
 
-Diese Sammlung enthält mehrere leistungsstarke Excel Programme zur Verbesserung von Organisation, Planung und Arbeitsabläufen.
+**Kostenlose Excel Tools für Büro, Industrie und Maschinenbau – inklusive Urlaubskalender, Kurvenberechnung, Lagerverwaltung und Lehrenverwaltung zum direkten Download.**
 
-Alle Programme wurden für den praktischen Einsatz entwickelt und funktionieren komplett offline mit Microsoft Excel.
+Diese Sammlung enthält mehrere professionelle Excel Programme zur Verbesserung von Organisation, Planung und Arbeitsabläufen. Alle Tools wurden mit Excel VBA entwickelt und sind vollständig offline nutzbar.
 
----
+Ideal für:
 
-# 1. Urlaubskalender fürs Leben
-
-Ein übersichtlicher Urlaubskalender zur Planung von Urlaub und Feiertagen.
-
-Funktionen
-
-- Planung für bis zu 4 Personen
-- Feiertage können selbst eingetragen werden
-- Ferien können eingetragen werden
-- Übersichtliche Darstellung mit Legende
-- Ideal für Familien und kleine Teams
-
-Download
-
-Urlaubskalender.xlsm
-
----
-
-# 2. Kurvenberechnung für Transferpressen
-
-Ein leistungsstarkes Tool zur Berechnung von Kurven für Stanz- und Transferpressen.
-
-Mit diesem Excel Programm können optimale Kurven schnell und einfach berechnet werden.
-
-Vorteile
-
-- Berechnung in wenigen Minuten
-- komplett offline nutzbar
-- verbessert Produktionsabläufe
-- erhöht mögliche Hubzahlen
-
-Ideal für
-
+- Büroorganisation
 - Maschinenbau
+- Werkstätten
 - Produktionsplanung
-- Werkzeugbau
+- Lagerverwaltung
+- Werkzeugverwaltung
 
 ---
 
-# 3. Magazinverwaltung
+# Download der Excel Tools
 
-Ein vollständiges Verwaltungssystem für Magazine und Lager.
+Die Programme können direkt hier heruntergeladen werden:
 
-Die Bedienung erfolgt komplett über eine Benutzeroberfläche (UserForm).
-
-Funktionen
-
-- Verfolgung von ausgelagerten Teilen
-- Anzeige wer was ausgeliehen hat
-- Anzeige wo Teile gelagert sind
-- reduziert Suchzeiten erheblich
-
-Dieses Tool ist bereits seit über 2 Jahren in einem Unternehmen mit über 500 Mitarbeitern im Einsatz.
+- [Urlaubskalender Download](Urlaubskalender.xlsm)  
+- [Kurvenberechnung Download](Kurvenberechnung.xlsm)  
+- [Magazinverwaltung Download](Magazinverwaltung.xlsm)  
+- [Lehrenverwaltung Download](Lehrenverwaltung.xlsm)  
 
 ---
 
-# 4. Lehrenverwaltung
+# Programme Übersicht
 
-Ein professionelles System zur Verwaltung von Lehren und Werkzeugen.
+## 1. Urlaubskalender fürs Leben
 
-Funktionen
+![Urlaubskalender](images/urlaubskalender.png)
 
-- komplette Steuerung über Benutzeroberfläche
-- schneller Zugriff auf Werkzeuge
-- Historie der Nutzung
-- Anzeige wer zuletzt mit der Lehre gearbeitet hat
+Ein übersichtlicher Urlaubskalender zur Planung von Urlaub, Ferien und Feiertagen.
 
-Ideal für Industrie und Werkstätten.
+**Funktionen:**
 
-[Lehrenverwaltung Download](Lehrenverwaltung.xlsm) 
-![Lehrenverwaltung](images/Lehren1.png) ![Lehrenverwaltung](images/Lehren2.png)
+- Planung für bis zu 4 Personen  
+- Individuelle Feiertage  
+- Ferienplanung  
+- Übersichtliche Darstellung mit Legende  
+
+**Ideal für Familien oder kleine Teams.**  
+
+**SEO Keywords:** Urlaubskalender Excel, Ferienplaner Excel, Team Urlaubsplaner Excel
+
+---
+
+## 2. Kurvenberechnung für Transferpressen
+
+![Kurvenberechnung](images/kurvenberechnung.png)
+
+Excel Tool zur schnellen Berechnung optimaler Kurven für Transfer- und Stanzpressen.
+
+**Vorteile:**
+
+- Berechnung in wenigen Minuten  
+- Komplett offline nutzbar  
+- Verbesserung von Produktionsabläufen  
+- Erhöhung möglicher Hubzahlen  
+
+**Ideal für Maschinenbau und Produktion.**  
+
+**SEO Keywords:** Pressen Berechnung Excel, Transferpresse Kurvenberechnung, Maschinenbau Excel Tool
+
+---
+
+## 3. Magazinverwaltung
+
+![Magazinverwaltung](images/magazinverwaltung.png)
+
+Ein vollständiges Lagerverwaltungssystem mit Benutzeroberfläche (UserForm).
+
+**Funktionen:**
+
+- Anzeige wer welches Teil ausgelagert hat  
+- Anzeige von Lagerorten  
+- Tracking von Lagerbewegungen  
+- Reduzierung von Suchzeiten  
+
+Dieses Tool ist bereits seit über 2 Jahren in einem Unternehmen mit über 500 Mitarbeitern im Einsatz.  
+
+**SEO Keywords:** Lagerverwaltung Excel, Inventarverwaltung Excel, Magazinverwaltung Excel
+
+---
+
+## 4. Lehrenverwaltung
+
+![Lehrenverwaltung](images/lehrenverwaltung.png)
+
+Professionelles System zur Verwaltung von Lehren und Werkzeugen.
+
+**Funktionen:**
+
+- Werkzeug Tracking  
+- Nutzungsverlauf  
+- Anzeige des letzten Benutzers  
+- Schnelle Suche  
+
+**Perfekt geeignet für Industrie und Werkstätten.**  
+
+**SEO Keywords:** Lehrenverwaltung Excel, Werkzeugverwaltung Excel, Gauge Management Excel
+
 ---
 
 # Voraussetzungen
 
-Microsoft Excel mit aktivierten Makros.
+- Microsoft Excel  
+- Makros aktiviert
 
 ---
 
+# Vorteile dieser Tools
+
+- Vollständig offline nutzbar  
+- Keine zusätzliche Software notwendig  
+- Einfache Bedienung  
+- Praxisorientierte Lösungen  
+- Kostenlos nutzbar für private und gewerbliche Zwecke
+
+---
+
+# Lizenz
+
+Kostenlose Nutzung für private und gewerbliche Zwecke erlaubt.
