@@ -1,6 +1,6 @@
-# Kostenlose Excel Tools für Büro und Industrie
+# Excel Tools für Büro und Industrie
 
-**Kostenlose Excel Tools für Büro, Industrie und Maschinenbau – inklusive Urlaubskalender, Kurvenberechnung, Lagerverwaltung und Lehrenverwaltung zum direkten Download.**
+**Excel Tools für Büro, Industrie und Maschinenbau – inklusive Urlaubskalender, Kurvenberechnung, Lagerverwaltung und Lehrenverwaltung zum direkten Download.**
 
 Diese Sammlung enthält mehrere professionelle Excel Programme zur Verbesserung von Organisation, Planung und Arbeitsabläufen. Alle Tools wurden mit Excel VBA entwickelt und sind vollständig offline nutzbar.
 
@@ -117,10 +117,8 @@ Professionelles System zur Verwaltung von Lehren und Werkzeugen.
 - Keine zusätzliche Software notwendig  
 - Einfache Bedienung  
 - Praxisorientierte Lösungen  
-- Kostenlos nutzbar für private und gewerbliche Zwecke
+- private und gewerbliche Zwecke
 
 ---
 
-# Lizenz
 
-Kostenlose Nutzung für private und gewerbliche Zwecke erlaubt.
