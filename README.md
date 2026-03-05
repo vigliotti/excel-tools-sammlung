@@ -74,7 +74,9 @@ Funktionen
 - Anzeige wer zuletzt mit der Lehre gearbeitet hat
 
 Ideal für Industrie und Werkstätten.
-![Lehrenverwaltung](images/lehrenverwaltung.png)
+
+
+![Lehrenverwaltung](images/Lehren1.png) ![Lehrenverwaltung](images/Lehren2.png)
 ---
 
 # Voraussetzungen
