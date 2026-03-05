@@ -75,7 +75,7 @@ Funktionen
 
 Ideal für Industrie und Werkstätten.
 
-
+[Lehrenverwaltung Download](Lehrenverwaltung.xlsm) 
 ![Lehrenverwaltung](images/Lehren1.png) ![Lehrenverwaltung](images/Lehren2.png)
 ---
 
