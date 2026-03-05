@@ -3,8 +3,8 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Kostenlose Excel Tools – Büro & Industrie</title>
-<meta name="description" content="Kostenlose Excel Tools für Planung, Lagerverwaltung und Industrie. Urlaubskalender, Kurvenberechnung, Magazinverwaltung und Lehrenverwaltung.">
+<title>Excel Tools – Büro & Industrie</title>
+<meta name="description" content="Excel Tools für Planung, Lagerverwaltung, Rechnungen, Industrie. Urlaubskalender, Kurvenberechnung, Magazinverwaltung, Lehrenverwaltung, xlRechnung.">
 <style>
 body {font-family: Arial, sans-serif; margin:0; background:#f4f6f8; color:#333;}
 header {background: linear-gradient(135deg,#2c3e50,#34495e); color:white; padding:80px 20px; text-align:center;}
@@ -20,7 +20,7 @@ header p {font-size:18px; opacity:0.9;}
 .card h3 {margin-top:0;}
 .card ul {padding-left:18px;}
 .download {margin-top:15px;}
-.download a {display:inline-block; background:#3498db; color:white; padding:10px 18px; border-radius:6px; text-decoration:none; font-size:15px; transition: all 0.3s;}
+.download a {display:inline-block; background:#3498db; color:white; padding:10px 18px; border-radius:6px; text-decoration:none; font-size:15px; transition: all 0.3s; margin-right:5px;}
 .download a:hover {background:#2980b9; transform: scale(1.05);}
 .features {background:white; padding:60px 20px; margin-top:40px;}
 .features h2 {text-align:center; margin-bottom:40px;}
@@ -33,8 +33,8 @@ footer {margin-top:60px; padding:30px; text-align:center; background:#2c3e50; co
 <body>
 
 <header>
-<h1>Kostenlose Excel Tools</h1>
-<p>Professionelle Excel Programme für Büro, Werkstatt, Industrie und Maschinenbau</p>
+<h1>Excel Tools</h1>
+<p>Professionelle Excel Programme für Büro, Werkstatt, Industrie und Rechnungswesen</p>
 <div class="download-main">
 <a href="#downloads">Direkt zu den Downloads</a>
 </div>
@@ -44,58 +44,66 @@ footer {margin-top:60px; padding:30px; text-align:center; background:#2c3e50; co
 <h2>Verfügbare Programme</h2>
 <div class="tools">
 
+<!-- Jahreskalender -->
 <div class="card">
-<h3>Urlaubskalender fürs Leben</h3>
-<img src="images/urlaubskalender.png" width="100%" alt="Urlaubskalender Screenshot">
+<h3>Jahreskalender_Uebersicht</h3>
+<img src="images/Urlaubskalender.png" width="100%" alt="Urlaubskalender Screenshot">
 <p>Planung von Urlaub, Ferien und Feiertagen für bis zu 4 Personen.</p>
 <ul>
 <li>Individuelle Feiertage</li>
 <li>Ferien eintragbar</li>
-<li>Übersichtliche Darstellung</li>
-<li>Ideal für Familien und kleine Teams</li>
+<li>Übersichtliche Darstellung mit Legende</li>
+<li>Ideal für Familien oder kleine Teams</li>
 </ul>
 <div class="download">
-<a href="Urlaubskalender.xlsm" onclick="incrementCounter('urlaub')">Download</a>
+<a href="Jahreskalender_Uebersicht.xlsm" onclick="incrementCounter('urlaub')">Download</a>
 <div class="counter" id="counter-urlaub">Downloads: 0</div>
 </div>
 </div>
 
+<!-- Kurven Berechnung -->
 <div class="card">
-<h3>Kurvenberechnung für Transferpressen</h3>
-<img src="images/kurvenberechnung.png" width="100%" alt="Kurvenberechnung Screenshot">
-<p>Berechnung optimaler Presskurven für Stanz- und Transferpressen.</p>
+<h3>Kurven Berechnung</h3>
+<img src="images/Kurvenberechnung.png" width="100%" alt="Kurvenberechnung Screenshot">
+<p>Berechnung optimaler Presskurven für Transfer- und Stanzpressen.</p>
 <ul>
-<li>Schnelle Kurvenberechnung</li>
+<li>Schnelle Berechnung</li>
 <li>Offline nutzbar</li>
 <li>Optimiert Produktionsabläufe</li>
-<li>Steigert Hubzahlen</li>
+<li>Erhöht Hubzahlen</li>
 </ul>
 <div class="download">
-<a href="Kurvenberechnung.xlsm" onclick="incrementCounter('kurven')">Download</a>
+<a href="Kurven%20Berechnung.xlsm" onclick="incrementCounter('kurven')">Download</a>
 <div class="counter" id="counter-kurven">Downloads: 0</div>
 </div>
 </div>
 
+<!-- Magazinverwaltung -->
 <div class="card">
 <h3>Magazinverwaltung</h3>
-<img src="images/magazinverwaltung.png" width="100%" alt="Magazinverwaltung Screenshot">
+<img src="images/Magazin1.png" width="100%" alt="Magazin Screenshot 1">
+<img src="images/Magazin2.png" width="100%" alt="Magazin Screenshot 2">
 <p>Professionelle Lager- und Magazinverwaltung mit Benutzeroberfläche.</p>
+<p><strong>Hinweis:</strong> Magazin.xlsb und MagazinDaten.xlsb müssen zwingend in C:\Magazin\ gespeichert werden.</p>
 <ul>
-<li>Tracking von ausgelagerten Teilen</li>
+<li>Anzeige wer welches Teil ausgelagert hat</li>
 <li>Anzeige von Lagerorten</li>
+<li>Tracking von Lagerbewegungen</li>
 <li>Reduzierung von Suchzeiten</li>
-<li>Seit über 2 Jahren erfolgreich im Einsatz</li>
 </ul>
 <div class="download">
-<a href="Magazinverwaltung.xlsm" onclick="incrementCounter('magazin')">Download</a>
+<a href="Magazin.xlsb" onclick="incrementCounter('magazin')">Download Magazin</a>
+<a href="MagazinDaten.xlsb" onclick="incrementCounter('magazin')">Download Daten</a>
 <div class="counter" id="counter-magazin">Downloads: 0</div>
 </div>
 </div>
 
+<!-- Lehrenverwaltung -->
 <div class="card">
 <h3>Lehrenverwaltung</h3>
-<img src="images/lehrenverwaltung.png" width="100%" alt="Lehrenverwaltung Screenshot">
-<p>Verwaltungssystem für Lehren und Werkzeuge mit Verlauf und Benutzeroberfläche.</p>
+<img src="images/Lehren1.png" width="100%" alt="Lehren Screenshot 1">
+<img src="images/Lehren2.png" width="100%" alt="Lehren Screenshot 2">
+<p>Verwaltung von Lehren und Werkzeugen mit Verlauf und Benutzeroberfläche.</p>
 <ul>
 <li>Werkzeug Tracking</li>
 <li>Nutzungsverlauf</li>
@@ -108,38 +116,35 @@ footer {margin-top:60px; padding:30px; text-align:center; background:#2c3e50; co
 </div>
 </div>
 
+<!-- xlRechnung -->
+<div class="card">
+<h3>xlRechnung</h3>
+<img src="images/rechnung1.png" width="100%" alt="Rechnung Screenshot 1">
+<img src="images/rechnung2.png" width="100%" alt="Rechnung Screenshot 2">
+<p>Rechnungsprogramm ideal für Kleinunternehmer (mit oder ohne Kleinunternehmerregelung).</p>
+<ul>
+<li>Stammdaten einmal speichern</li>
+<li>Artikel und Käufer eingeben</li>
+<li>Rechnung generieren und automatisch in C:\ speichern</li>
+<li>DHL oder Post Versandschein automatisch generiert</li>
+<li>EÜR automatisch erstellt</li>
+</ul>
+<div class="download">
+<a href="xlRechnung.xlsm" onclick="incrementCounter('rechnung')">Download</a>
+<div class="counter" id="counter-rechnung">Downloads: 0</div>
 </div>
 </div>
 
-<section class="features">
-<h2>Warum diese Excel Tools?</h2>
-<div class="feature-grid">
-<div class="feature">
-<h3>Schnell & Effizient</h3>
-<p>Optimierte Arbeitsabläufe sparen Zeit im Alltag.</p>
-</div>
-<div class="feature">
-<h3>Offline nutzbar</h3>
-<p>Alle Tools laufen direkt in Excel ohne zusätzliche Software.</p>
-</div>
-<div class="feature">
-<h3>Praxis erprobt</h3>
-<p>Tools werden bereits erfolgreich in Unternehmen eingesetzt.</p>
-</div>
-<div class="feature">
-<h3>Kostenlos</h3>
-<p>Freie Nutzung für private und berufliche Zwecke.</p>
 </div>
 </div>
-</section>
 
 <footer>
-<p>Excel Tools Sammlung – Kostenlose Programme für Planung und Industrie</p>
+<p>Excel Tools Sammlung – Professionelle Programme für Planung, Lager, Industrie und Rechnungen</p>
 </footer>
 
 <script>
-// Einfacher Download-Zähler (nur im Browser lokal)
-let counters = {urlaub:0, kurven:0, magazin:0, lehren:0};
+// Download-Zähler (nur lokal, pro Session)
+let counters = {urlaub:0, kurven:0, magazin:0, lehren:0, rechnung:0};
 function incrementCounter(tool){
     counters[tool]++;
     document.getElementById('counter-'+tool).innerText = 'Downloads: ' + counters[tool];
