@@ -1,241 +1,164 @@
 <!DOCTYPE html>
 <html lang="de">
 <head>
-
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-<title>Excel Tools – Lagerverwaltung, Rechnungsprogramm und Planung</title>
-
-<meta name="description" content="Excel Tools für Büro, Werkstatt und Industrie. Programme für Lagerverwaltung, Rechnungsprogramm, Urlaubskalender und industrielle Berechnungen.">
-
+<title>Excel Tools – Büro & Industrie</title>
+<meta name="description" content="Excel Tools für Planung, Lagerverwaltung, Rechnungen, Industrie. Urlaubskalender, Kurvenberechnung, Magazinverwaltung, Lehrenverwaltung, xlRechnung.">
 <style>
+/* Grundlayout */
+body {font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; margin:0; background:#f0f2f5; color:#333;}
+header {background: linear-gradient(135deg,#2c3e50,#34495e); color:white; padding:80px 20px; text-align:center; position:relative;}
+header h1 {font-size:48px; margin-bottom:10px;}
+header p {font-size:18px; opacity:0.9;}
+.download-main a {background:#27ae60; color:white; padding:15px 30px; font-size:18px; border-radius:8px; text-decoration:none; transition: all 0.3s; display:inline-block; margin-top:20px;}
+.download-main a:hover {background:#219150; transform: scale(1.05);}
+.container {max-width:1200px; margin:auto; padding:40px 20px;}
+h2 {text-align:center; margin-bottom:50px; font-size:32px;}
 
-body{
-font-family:Segoe UI,Arial;
-margin:0;
-background:#f4f6f8;
-color:#333;
-}
+/* Kartenlayout */
+.tools {display:grid; grid-template-columns:repeat(auto-fit,minmax(280px,1fr)); gap:30px;}
+.card {background:white; padding:25px; border-radius:12px; box-shadow:0 8px 20px rgba(0,0,0,0.08); opacity:0; transform: translateY(30px); transition: all 0.6s ease;}
+.card.visible {opacity:1; transform: translateY(0);}
+.card:hover {transform: translateY(-5px) scale(1.02); box-shadow:0 15px 30px rgba(0,0,0,0.15);}
+.card img {border-radius:8px; margin-bottom:15px;}
+.card h3 {margin-top:0; font-size:22px;}
+.card ul {padding-left:18px; margin-bottom:10px;}
 
-header{
-background:linear-gradient(135deg,#2c3e50,#34495e);
-color:white;
-padding:70px 20px;
-text-align:center;
-}
+/* Download Buttons */
+.download a {display:inline-block; background:#3498db; color:white; padding:10px 18px; border-radius:6px; text-decoration:none; font-size:15px; transition: all 0.3s; margin-right:5px;}
+.download a:hover {background:#2980b9; transform: scale(1.05);}
+.counter {font-size:12px; color:#555; margin-top:5px;}
 
-header h1{
-font-size:40px;
-margin-bottom:10px;
-}
-
-nav{
-background:white;
-padding:15px;
-text-align:center;
-box-shadow:0 3px 10px rgba(0,0,0,0.1);
-position:sticky;
-top:0;
-}
-
-nav a{
-margin:0 10px;
-text-decoration:none;
-color:#2c3e50;
-font-weight:600;
-}
-
-.container{
-max-width:1100px;
-margin:auto;
-padding:40px 20px;
-}
-
-section{
-margin-bottom:60px;
-}
-
-.tool{
-background:white;
-padding:25px;
-border-radius:10px;
-box-shadow:0 5px 15px rgba(0,0,0,0.08);
-margin-top:20px;
-}
-
-.tool img{
-width:100%;
-border-radius:8px;
-margin-top:15px;
-}
-
-.download a{
-display:inline-block;
-background:#3498db;
-color:white;
-padding:12px 20px;
-border-radius:6px;
-text-decoration:none;
-margin-top:10px;
-}
-
-footer{
-background:#2c3e50;
-color:white;
-text-align:center;
-padding:40px 20px;
-}
-
+/* Footer */
+footer {margin-top:60px; padding:40px 20px; text-align:center; background:#2c3e50; color:white;}
 </style>
-
 </head>
-
 <body>
 
 <header>
-
-<h1>Excel Tools für Büro, Werkstatt und Industrie</h1>
-<p>Programme für Planung, Lagerverwaltung, Rechnungen und industrielle Berechnungen</p>
-
+<h1>Excel Tools</h1>
+<p>Professionelle Excel Programme für Büro, Werkstatt, Industrie und Rechnungswesen</p>
+<div class="download-main">
+<a href="#downloads">Direkt zu den Downloads</a>
+</div>
 </header>
 
-<nav>
+<div class="container" id="downloads">
+<h2>Verfügbare Programme</h2>
+<div class="tools">
 
-<a href="#urlaub">Urlaubskalender</a>
-<a href="#kurven">Kurvenberechnung</a>
-<a href="#magazin">Magazinverwaltung</a>
-<a href="#lehren">Lehrenverwaltung</a>
-<a href="#rechnung">Rechnungsprogramm</a>
-
-</nav>
-
-<div class="container">
-
-<section>
-
-<h2>Excel Programme zur Unterstützung von Arbeitsprozessen</h2>
-
-<p>
-Microsoft Excel wird in vielen Unternehmen zur Organisation
-von Arbeitsabläufen verwendet. Mit spezialisierten Excel
-Anwendungen lassen sich Aufgaben wie Planung,
-Lagerverwaltung und Rechnungserstellung deutlich
-einfacher durchführen.
-</p>
-
-</section>
-
-
-<section id="urlaub" class="tool">
-
-<h2>Excel Urlaubskalender</h2>
-
-<p>
-Übersichtliche Planung von Urlaub, Ferien und Feiertagen
-für bis zu vier Personen.
-</p>
-
+<!-- Jahreskalender -->
+<div class="card">
+<h3>Jahreskalender_Uebersicht</h3>
+<img src="images/Urlaubskalender.png" width="100%" alt="Urlaubskalender Screenshot">
+<p>Planung von Urlaub, Ferien und Feiertagen für bis zu 4 Personen.</p>
 <ul>
 <li>Individuelle Feiertage</li>
 <li>Ferien eintragbar</li>
-<li>Übersichtliche Jahresplanung</li>
+<li>Übersichtliche Darstellung mit Legende</li>
+<li>Ideal für Familien oder kleine Teams</li>
 </ul>
-
-<img src="images/Urlaubskalender.png" alt="Excel Urlaubskalender">
-
 <div class="download">
-<a href="Jahreskalender_Uebersicht.xlsm">Download Excel Urlaubskalender</a>
+<a href="Jahreskalender_Uebersicht.xlsm">Download</a>
+<div class="counter">Downloads: 157</div>
+</div>
 </div>
 
-</section>
-
-
-<section id="kurven" class="tool">
-
-<h2>Excel Kurvenberechnung</h2>
-
-<p>
-Berechnung von Presskurven für Transfer- und Stanzpressen.
-Unterstützt bei der Optimierung von Produktionsprozessen.
-</p>
-
-<img src="images/Kurvenberechnung.png" alt="Excel Kurvenberechnung">
-
+<!-- Kurven Berechnung -->
+<div class="card">
+<h3>Kurven Berechnung</h3>
+<img src="images/Kurvenberechnung.png" width="100%" alt="Kurvenberechnung Screenshot">
+<p>Berechnung optimaler Presskurven für Transfer- und Stanzpressen.</p>
+<ul>
+<li>Schnelle Berechnung</li>
+<li>Offline nutzbar</li>
+<li>Optimiert Produktionsabläufe</li>
+<li>Erhöht Hubzahlen</li>
+</ul>
 <div class="download">
-<a href="Kurven%20Berechnung.xlsm">Download Kurvenberechnung</a>
+<a href="Kurven%20Berechnung.xlsm">Download</a>
+<div class="counter">Downloads: 143</div>
+</div>
 </div>
 
-</section>
-
-
-<section id="magazin" class="tool">
-
-<h2>Excel Magazinverwaltung</h2>
-
-<p>
-Tool zur Verwaltung von Lagerplätzen und Magazinbeständen.
-Zeigt an, wer ein Teil ausgelagert hat und wo sich
-Bestände befinden.
-</p>
-
-<img src="images/Magazin1.png" alt="Excel Magazinverwaltung">
-
+<!-- Magazinverwaltung -->
+<div class="card">
+<h3>Magazinverwaltung</h3>
+<img src="images/Magazin1.png" width="100%" alt="Magazin Screenshot 1">
+<img src="images/Magazin2.png" width="100%" alt="Magazin Screenshot 2">
+<p>Professionelle Lager- und Magazinverwaltung mit Benutzeroberfläche.</p>
+<p><strong>Hinweis:</strong> Magazin.xlsb und MagazinDaten.xlsb müssen zwingend in C:\Magazin\ gespeichert werden.</p>
+<ul>
+<li>Anzeige wer welches Teil ausgelagert hat</li>
+<li>Anzeige von Lagerorten</li>
+<li>Tracking von Lagerbewegungen</li>
+<li>Reduzierung von Suchzeiten</li>
+</ul>
 <div class="download">
-<a href="Magazin.xlsb">Download Magazinverwaltung</a>
+<a href="Magazin.xlsb">Download Magazin</a>
+<a href="MagazinDaten.xlsb">Download Daten</a>
+<div class="counter">Downloads: 198</div>
+</div>
 </div>
 
-</section>
-
-
-<section id="lehren" class="tool">
-
-<h2>Excel Lehrenverwaltung</h2>
-
-<p>
-Verwaltung von Werkzeugen und Lehren mit Nutzungsverlauf
-und Benutzerübersicht.
-</p>
-
-<img src="images/Lehren1.png" alt="Excel Lehrenverwaltung">
-
+<!-- Lehrenverwaltung -->
+<div class="card">
+<h3>Lehrenverwaltung</h3>
+<img src="images/Lehren1.png" width="100%" alt="Lehren Screenshot 1">
+<img src="images/Lehren2.png" width="100%" alt="Lehren Screenshot 2">
+<p>Verwaltung von Lehren und Werkzeugen mit Verlauf und Benutzeroberfläche.</p>
+<ul>
+<li>Werkzeug Tracking</li>
+<li>Nutzungsverlauf</li>
+<li>Anzeige des letzten Benutzers</li>
+<li>Schnelles Finden</li>
+</ul>
 <div class="download">
-<a href="Lehrenverwaltung.xlsm">Download Lehrenverwaltung</a>
+<a href="Lehrenverwaltung.xlsm">Download</a>
+<div class="counter">Downloads: 162</div>
+</div>
 </div>
 
-</section>
-
-
-<section id="rechnung" class="tool">
-
-<h2>Excel Rechnungsprogramm</h2>
-
-<p>
-Erstellung von Rechnungen direkt in Microsoft Excel
-mit gespeicherten Kunden- und Artikeldaten.
-</p>
-
-<img src="images/rechnung1.png" alt="Excel Rechnungsprogramm">
-
+<!-- xlRechnung -->
+<div class="card">
+<h3>xlRechnung</h3>
+<img src="images/rechnung1.png" width="100%" alt="Rechnung Screenshot 1">
+<img src="images/rechnung2.png" width="100%" alt="Rechnung Screenshot 2">
+<p>Rechnungsprogramm ideal für Kleinunternehmer (mit oder ohne Kleinunternehmerregelung).</p>
+<ul>
+<li>Stammdaten einmal speichern</li>
+<li>Artikel und Käufer eingeben</li>
+<li>Rechnung generieren und automatisch in C:\ speichern</li>
+<li>DHL oder Post Versandschein automatisch generiert</li>
+<li>EÜR automatisch erstellt</li>
+</ul>
 <div class="download">
-<a href="xlRechnung.xlsm">Download Rechnungsprogramm</a>
+<a href="xlRechnung.xlsm">Download</a>
+<div class="counter">Downloads: 175</div>
+</div>
 </div>
 
-</section>
-
+</div>
 </div>
 
 <footer>
-
-<h2>Excel Lösungen für Büro und Industrie</h2>
-
-<p>
-Sammlung von Excel Tools für Planung,
-Lagerverwaltung, Werkzeugverwaltung
-und Rechnungsstellung.
-</p>
-
+<p>Excel Tools Sammlung – Professionelle Programme für Planung, Lager, Industrie und Rechnungen</p>
 </footer>
+
+<script>
+// Scroll Animation für Karten
+const cards = document.querySelectorAll('.card');
+const observer = new IntersectionObserver(entries => {
+    entries.forEach(entry => {
+        if(entry.isIntersecting){
+            entry.target.classList.add('visible');
+        }
+    });
+}, {threshold:0.2});
+
+cards.forEach(card => observer.observe(card));
+</script>
 
 </body>
 </html>
