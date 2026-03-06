@@ -1,122 +1,74 @@
-# Excel Tools für Büro, Industrie & Maschinenbau
+# Excel Tools
 
-Professionelle Excel Programme für Büro, Werkstatt, Industrie und Maschinenbau – inklusive Urlaubskalender, Kurvenberechnung, Lagerverwaltung, Lehrenverwaltung und Rechnungsprogramm.
+Sammlung von Excel Programmen für Büro, Werkstatt und Industrie.
 
-Diese Sammlung enthält leistungsstarke Excel Programme zur Verbesserung von Organisation, Planung und Arbeitsabläufen. Alle Tools funktionieren vollständig offline mit Excel VBA.
+Die Tools unterstützen typische Arbeitsprozesse wie Planung, Lagerverwaltung,
+Werkzeugverwaltung und Rechnungserstellung.
 
-**Ideal für:**
-- Büroorganisation
-- Produktionsplanung
-- Maschinenbau
-- Werkstätten
-- Lagerverwaltung
-- Werkzeugverwaltung
-- Rechnungsstellung für Kleinunternehmer
+## Enthaltene Programme
 
----
+### Urlaubskalender
+Excel Tool zur Planung von Urlaub, Ferien und Feiertagen.
 
-## Download der Excel Tools
-
-Die Programme können direkt hier heruntergeladen werden:
-
-- [Jahreskalender_Uebersicht Download](Jahreskalender_Uebersicht.xlsm)  
-- [Kurven Berechnung Download](Kurven%20Berechnung.xlsm)  
-- [Magazin.xlsb Download](Magazin.xlsb)  
-- [MagazinDaten.xlsb Download](MagazinDaten.xlsb)  
-- [Lehrenverwaltung Download](Lehrenverwaltung.xlsm)  
-- [xlRechnung Download](xlRechnung.xlsm)  
-
----
-
-## Programme Übersicht
-
-### 1. Jahreskalender_Uebersicht
-
-![Urlaubskalender](images/Urlaubskalender.png)
-
-Planung von Urlaub, Ferien und Feiertagen für bis zu 4 Personen.
-
-**Funktionen:**
+Funktionen:
+- Planung für mehrere Personen
+- Übersichtliche Jahresdarstellung
 - Individuelle Feiertage
-- Ferien eintragbar
-- Übersichtliche Darstellung mit Legende
-- Ideal für Familien oder kleine Teams  
 
 ---
 
-### 2. Kurven Berechnung für Transferpressen
+### Kurvenberechnung
+Berechnung von Presskurven für Transferpressen und Stanzpressen.
 
-![Kurvenberechnung](images/Kurvenberechnung.png)
-
-Berechnung optimaler Presskurven für Transfer- und Stanzpressen.
-
-**Vorteile:**
-- Schnelle Berechnung
+Funktionen:
+- schnelle Berechnung
 - Offline nutzbar
-- Optimiert Produktionsabläufe
-- Erhöht Hubzahlen  
+- Optimierung von Produktionsabläufen
 
 ---
 
-### 3. Magazinverwaltung
+### Magazinverwaltung
+Tool zur Verwaltung von Lagerplätzen und Magazinbeständen.
 
-![Magazin1](images/Magazin1.png)  
-![Magazin2](images/Magazin2.png)
-
-Professionelle Lager- und Magazinverwaltung mit Benutzeroberfläche (UserForm).
-
-**Wichtig:**  
-- **Magazin.xlsb** und **MagazinDaten.xlsb** müssen zwingend in **C:\Magazin\** gespeichert werden, sonst funktioniert das Programm nicht.  
-
-**Funktionen:**
-- Anzeige wer welches Teil ausgelagert hat
+Funktionen:
 - Anzeige von Lagerorten
 - Tracking von Lagerbewegungen
-- Reduzierung von Suchzeiten
+- Anzeige des letzten Benutzers
 
 ---
 
-### 4. Lehrenverwaltung
+### Lehrenverwaltung
+Verwaltung von Werkzeugen und Lehren mit Nutzungsverlauf.
 
-![Lehren1](images/Lehren1.png)  
-![Lehren2](images/Lehren2.png)
-
-Verwaltung von Lehren und Werkzeugen mit Verlauf und Benutzeroberfläche.
-
-**Funktionen:**
+Funktionen:
 - Werkzeug Tracking
 - Nutzungsverlauf
-- Anzeige des letzten Benutzers
-- Schnelles Finden  
+- Benutzerübersicht
 
 ---
 
-### 5. xlRechnung
+### Rechnungsprogramm
+Excel Tool zur Erstellung von Rechnungen.
 
-![rechnung1](images/rechnung1.png)  
-![rechnung2](images/rechnung2.png)
-
-Rechnungsprogramm ideal für Kleinunternehmer (mit oder ohne Kleinunternehmerregelung).
-
-**Funktionen:**
-- Stammdaten einmal speichern
-- Artikel und Käufer eingeben
-- Rechnung generieren und automatisch in `C:\` speichern
-- DHL oder Post Versandschein automatisch generiert
-- EÜR automatisch erstellt
+Funktionen:
+- Kundenverwaltung
+- Artikelverwaltung
+- Rechnungserstellung
 
 ---
 
-## Voraussetzungen
+## Verwendung
 
-- Microsoft Excel  
-- Makros aktiviert
+1. Excel Datei herunterladen
+2. In Microsoft Excel öffnen
+3. Makros aktivieren
+4. Tool verwenden
 
----
+## Hinweise
 
-## Vorteile dieser Tools
+Einige Programme benötigen feste Ordnerstrukturen.
+Bitte Hinweise in den jeweiligen Dateien beachten.
 
-- Vollständig offline nutzbar  
-- Keine zusätzliche Software notwendig  
-- Einfache Bedienung  
-- Praxisorientierte Lösungen  
+## Lizenz
+
+Dieses Projekt wird zu Demonstrationszwecken bereitgestellt.
